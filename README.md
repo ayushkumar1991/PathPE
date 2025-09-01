@@ -80,7 +80,9 @@ While traditional platforms offer static information, PathPE uses Google's Gemin
 | **Weekly Industry Insights**      | A cron-driven dashboard delivering the latest market trends and skill demands              | Keeps users ahead of the curve and informed about emerging opportunities.        |
 
 
-💻 Technical Architecture
+### 💻 Technical Architecture
+
+```mermaid
 graph TD
     subgraph "Browser"
         A[User Interface - Next.js & Shadcn UI]
@@ -106,29 +108,37 @@ graph TD
     D -- "Scheduled Jobs" --> B
     E -- "Personalized Content" --> B
     G -- "DB Connection" --> F
+```
 
+---
 
-🛠️ Tech Stack
-Frontend Stack
+##  🛠️ Tech Stack
+### Frontend Stack
+```
 🚀 Next.js 14 (App Router) - Full-stack React framework
 🎨 Tailwind CSS & Shadcn UI - Modern styling and component library
 🔄 React Query - Efficient data fetching and state management
 🔒 Clerk - Complete user authentication and management
 📘 TypeScript - For robust, type-safe development
+```
 
-Backend Stack
+### Backend Stack
+```
 ⚙️ Node.js - JavaScript runtime environment
 🔗 Prisma - Next-generation ORM for type-safe database access
 ⏳ Inngest - Reliable system for background jobs and cron schedules
+```
 
-AI, Database & Infrastructure
+### AI, Database & Infrastructure
+```
 🧠 Google Gemini API - The engine for all generative AI features
 🐘 Neon PostgreSQL - Serverless, scalable, and reliable database
 ☁️ Vercel - Seamless hosting, deployment, and CI/CD
+```
 
-🚀 Getting Started
+## 🚀 Getting Started
 Follow these instructions to set up and run the project locally.
-
+```
 Prerequisites
 Node.js >= 18
 npm or yarn
@@ -136,8 +146,11 @@ Git
 A Neon PostgreSQL account
 A Clerk account
 A Google Gemini API key
+```
+--- 
 
-💻 Local Setup
+## 💻 Local Setup
+```
 Clone the repository:
 
 git clone [https://github.com/ayushkumar1991/PathPE.git](https://github.com/ayushkumar1991/PathPE.git)
@@ -150,19 +163,14 @@ npm install
 Set up environment variables:
 Create a .env.local file in the root directory and populate it with your keys.
 
-# Neon PostgreSQL Database
-DATABASE_URL="postgresql://user:pass@host:port/db"
-
-# Clerk Authentication
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="pk_..."
-CLERK_SECRET_KEY="sk_..."
+DATABASE_URL="postgresql://user:pass@host:port/db"        # Neon PostgreSQL Database
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="pk_..."                # Clerk Authentication
+CLERK_SECRET_KEY="sk_..."                                 # Clerk Authentication
 NEXT_PUBLIC_CLERK_SIGN_IN_URL="/sign-in"
 NEXT_PUBLIC_CLERK_SIGN_UP_URL="/sign-up"
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL="/onboarding"
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL="/onboarding"
-
-# Google Gemini AI
-GEMINI_API_KEY="your-gemini-api-key"
+GEMINI_API_KEY="your-gemini-api-key"                      # Google Gemini AI
 
 Push the database schema:
 
@@ -174,8 +182,11 @@ Run the development server:
 npm run dev
 
 The application will be available at http://localhost:3000.
+```
+---
 
-🏗️ Project Structure
+## 🏗️ Project Structure
+```
 PathPE/
 ├── 📁 app/                     # Next.js App Router
 │   ├── 🔑 (auth)/              # Authentication pages (sign-in, sign-up)
@@ -187,10 +198,11 @@ PathPE/
 ├── 🔧 lib/                     # Utility functions, hooks, and helpers
 ├── 🎨 styles/                  # Global CSS styles
 └── 📜 package.json             # Project dependencies and scripts
+```
 
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 This project was made possible by the incredible work of teams and communities behind these technologies:
-
+```
 Google - For the groundbreaking Gemini API that powers our core intelligence.
 
 Vercel - For providing a world-class platform for developing and deploying Next.js applications.
@@ -198,6 +210,7 @@ Vercel - For providing a world-class platform for developing and deploying Next.
 Neon, Prisma, and Clerk - For building the robust backend and authentication infrastructure.
 
 The Open Source Community - For the countless libraries and tools that accelerated our development.
+```
 
 <div align="center">
 
