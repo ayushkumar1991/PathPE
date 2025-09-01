@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![PathPE Banner](./public/banner_.png)
+<!-- ![PathPE Banner](./public/banner_.png)  -->
 ### 🌟 *Guiding India's Students to Future-Proof Careers with Generative AI*
 [![AI Powered](https://img.shields.io/badge/AI%20Powered-Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://gemini.google.com/)
 [![Career Guidance](https://img.shields.io/badge/Career%20Guidance-Personalized-FF6B6B?style=for-the-badge&logo=target&logoColor=white)](/)
