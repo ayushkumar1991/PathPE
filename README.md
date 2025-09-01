@@ -153,7 +153,7 @@ A Google Gemini API key
 ```
 Clone the repository:
 
-git clone [https://github.com/ayushkumar1991/PathPE.git](https://github.com/ayushkumar1991/PathPE.git)
+git clone https://github.com/ayushkumar1991/PathPE.git
 cd PathPE
 
 Install dependencies:
